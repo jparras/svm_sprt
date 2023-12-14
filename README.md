@@ -7,3 +7,5 @@ This code implements the results published in Parras, J., & Zazo, S. (2019). Usi
 ## Launch
 
 To launch each of the simulations, run the python script in each folder.
+
+Note: In the Analysis simulation folder, the results have been zipped. To load them, just unzip prior to calling the code.
