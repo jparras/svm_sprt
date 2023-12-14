@@ -1,0 +1,37 @@
+% This file was created by matlab2tikz.
+%
+%The latest updates can be retrieved from
+%  http://www.mathworks.com/matlabcentral/fileexchange/22022-matlab2tikz-matlab2tikz
+%where you can also make suggestions and rate matlab2tikz.
+%
+\newenvironment{customlegend}[1][]{%
+	\begingroup
+	% inits/clears the lists (which might be populated from previous
+	% axes):
+	\csname pgfplots@init@cleared@structures\endcsname
+	\pgfplotsset{#1}%
+}{%
+% draws the legend:
+\csname pgfplots@createlegend\endcsname
+\endgroup
+}%
+
+% makes \addlegendimage available (typically only available within an
+% axis environment):
+\def\addlegendimage{\csname pgfplots@addlegendimage\endcsname}
+
+\definecolor{mycolor1}{rgb}{0.00000,1.00000,1.00000}%
+\definecolor{mycolor2}{rgb}{1.00000,0.00000,1.00000}%
+
+\begin{tikzpicture}
+
+\begin{customlegend}[legend columns=2,legend style={column sep=1ex},legend entries={\text{NT, $\theta_0=0.2$}, \text{WT, $\theta_0=0.2$}, \text{NT, $\theta_0=0.4$}, \text{WT, $\theta_0=0.4$}, \text{NT, $\theta_0=0.6$}, \text{WT, $\theta_0=0.6$}}]
+	\addlegendimage{color=red,mark=asterisk, line legend}
+	\addlegendimage{color=green, mark=square, line legend}
+	\addlegendimage{color=blue,mark=asterisk, line legend}
+	\addlegendimage{color=mycolor1, mark=square, line legend}
+	\addlegendimage{color=black,mark=asterisk, line legend}
+	\addlegendimage{color=mycolor2, mark=square, line legend}
+\end{customlegend}
+
+\end{tikzpicture}%

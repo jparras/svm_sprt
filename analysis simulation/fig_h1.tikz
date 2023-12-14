@@ -1,0 +1,320 @@
+% This file was created by matplotlib2tikz v0.6.18.
+\begin{tikzpicture}
+
+\begin{groupplot}[group style={group size=1 by 2}]
+\nextgroupplot[
+height=\figureheight,
+tick align=outside,
+width=\figurewidth,
+x grid style={white!69.01960784313725!black},
+xmin=0.07, xmax=0.73,
+xtick pos=right,
+y grid style={white!69.01960784313725!black},
+ymin=0.85, ymax=1.01,
+ytick pos=left
+]
+\addplot [semithick, black, opacity=1, mark=square*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.1	0.03 \\
+0.166666666666667	0.038 \\
+0.233333333333333	0.036 \\
+0.3	0.052 \\
+0.366666666666667	0.046 \\
+0.433333333333333	0.036 \\
+0.5	0.03 \\
+0.566666666666667	0.052 \\
+0.633333333333333	0.03 \\
+0.7	0.03 \\
+};
+\addplot [semithick, green!50.0!black, opacity=1, mark=triangle*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.1	0.96 \\
+0.166666666666667	0.95 \\
+0.233333333333333	0.962 \\
+0.3	0.95 \\
+0.366666666666667	0.974 \\
+0.433333333333333	0.954 \\
+0.5	0.964 \\
+0.566666666666667	0.966 \\
+0.633333333333333	0.966 \\
+0.7	0.982 \\
+};
+\addplot [semithick, blue, opacity=1, mark=*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.1	0 \\
+0.166666666666667	0 \\
+0.233333333333333	0 \\
+0.3	0 \\
+0.366666666666667	0 \\
+0.433333333333333	0 \\
+0.5	0 \\
+0.566666666666667	0 \\
+0.633333333333333	0 \\
+0.7	0 \\
+};
+\addplot [semithick, red, opacity=1, mark=x, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.1	0 \\
+0.166666666666667	0 \\
+0.233333333333333	0 \\
+0.3	0 \\
+0.366666666666667	0 \\
+0.433333333333333	0 \\
+0.5	0 \\
+0.566666666666667	0 \\
+0.633333333333333	0 \\
+0.7	0 \\
+};
+\addplot [semithick, black, opacity=1, dashed, mark=square*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.1	0.066 \\
+0.166666666666667	0.074 \\
+0.233333333333333	0.108 \\
+0.3	0.102 \\
+0.366666666666667	0.044 \\
+0.433333333333333	0.062 \\
+0.5	0.068 \\
+0.566666666666667	0.06 \\
+0.633333333333333	0.052 \\
+0.7	0.05 \\
+};
+\addplot [semithick, green!50.0!black, opacity=1, dashed, mark=triangle*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.1	0.972 \\
+0.166666666666667	0.986 \\
+0.233333333333333	0.98 \\
+0.3	0.97 \\
+0.366666666666667	0.966 \\
+0.433333333333333	0.992 \\
+0.5	0.98 \\
+0.566666666666667	0.964 \\
+0.633333333333333	0.96 \\
+0.7	0.982 \\
+};
+\addplot [semithick, blue, opacity=1, dashed, mark=*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.1	1 \\
+0.166666666666667	1 \\
+0.233333333333333	1 \\
+0.3	1 \\
+0.366666666666667	1 \\
+0.433333333333333	1 \\
+0.5	1 \\
+0.566666666666667	1 \\
+0.633333333333333	1 \\
+0.7	1 \\
+};
+\addplot [semithick, red, opacity=1, dashed, mark=x, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.1	1 \\
+0.166666666666667	1 \\
+0.233333333333333	1 \\
+0.3	1 \\
+0.366666666666667	1 \\
+0.433333333333333	1 \\
+0.5	1 \\
+0.566666666666667	1 \\
+0.633333333333333	1 \\
+0.7	1 \\
+};
+\addplot [semithick, black, opacity=1, dotted, forget plot]
+table [row sep=\\]{%
+0.1	0.05 \\
+0.166666666666667	0.05 \\
+0.233333333333333	0.05 \\
+0.3	0.05 \\
+0.366666666666667	0.05 \\
+0.433333333333333	0.05 \\
+0.5	0.05 \\
+0.566666666666667	0.05 \\
+0.633333333333333	0.05 \\
+0.7	0.05 \\
+};
+\addplot [semithick, black, opacity=1, dotted, forget plot]
+table [row sep=\\]{%
+0.1	0.95 \\
+0.166666666666667	0.95 \\
+0.233333333333333	0.95 \\
+0.3	0.95 \\
+0.366666666666667	0.95 \\
+0.433333333333333	0.95 \\
+0.5	0.95 \\
+0.566666666666667	0.95 \\
+0.633333333333333	0.95 \\
+0.7	0.95 \\
+};
+\addplot [semithick, black, forget plot]
+table [row sep=\\]{%
+-0.015	-0.015 \\
+0.015	0.015 \\
+};
+\addplot [semithick, black, forget plot]
+table [row sep=\\]{%
+0.985	-0.015 \\
+1.015	0.015 \\
+};
+\nextgroupplot[
+height=\figureheight,
+legend cell align={left},
+legend entries={{no_attack H1 sprt},{dummy_attack H1 sprt},{attack_no_lock H1 sprt},{attack_lock H1 sprt},{no_attack H1 sprt_svm},{dummy_attack H1 sprt_svm},{attack_no_lock H1 sprt_svm},{attack_lock H1 sprt_svm}},
+legend style={at={(0.5,0.91)}, anchor=north, draw=white!80.0!black},
+tick align=outside,
+tick pos=left,
+width=\figurewidth,
+x grid style={white!69.01960784313725!black},
+xlabel={Theta_0},
+xmin=0.07, xmax=0.73,
+y grid style={white!69.01960784313725!black},
+ymin=-0.01, ymax=0.15
+]
+\addlegendimage{no markers, black}
+\addlegendimage{no markers, green!50.0!black}
+\addlegendimage{no markers, blue}
+\addlegendimage{no markers, red}
+\addlegendimage{no markers, black}
+\addlegendimage{no markers, green!50.0!black}
+\addlegendimage{no markers, blue}
+\addlegendimage{no markers, red}
+\addplot [semithick, black, opacity=1, mark=square*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.1	0.03 \\
+0.166666666666667	0.038 \\
+0.233333333333333	0.036 \\
+0.3	0.052 \\
+0.366666666666667	0.046 \\
+0.433333333333333	0.036 \\
+0.5	0.03 \\
+0.566666666666667	0.052 \\
+0.633333333333333	0.03 \\
+0.7	0.03 \\
+};
+\addplot [semithick, green!50.0!black, opacity=1, mark=triangle*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.1	0.96 \\
+0.166666666666667	0.95 \\
+0.233333333333333	0.962 \\
+0.3	0.95 \\
+0.366666666666667	0.974 \\
+0.433333333333333	0.954 \\
+0.5	0.964 \\
+0.566666666666667	0.966 \\
+0.633333333333333	0.966 \\
+0.7	0.982 \\
+};
+\addplot [semithick, blue, opacity=1, mark=*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.1	0 \\
+0.166666666666667	0 \\
+0.233333333333333	0 \\
+0.3	0 \\
+0.366666666666667	0 \\
+0.433333333333333	0 \\
+0.5	0 \\
+0.566666666666667	0 \\
+0.633333333333333	0 \\
+0.7	0 \\
+};
+\addplot [semithick, red, opacity=1, mark=x, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.1	0 \\
+0.166666666666667	0 \\
+0.233333333333333	0 \\
+0.3	0 \\
+0.366666666666667	0 \\
+0.433333333333333	0 \\
+0.5	0 \\
+0.566666666666667	0 \\
+0.633333333333333	0 \\
+0.7	0 \\
+};
+\addplot [semithick, black, opacity=1, dashed, mark=square*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.1	0.066 \\
+0.166666666666667	0.074 \\
+0.233333333333333	0.108 \\
+0.3	0.102 \\
+0.366666666666667	0.044 \\
+0.433333333333333	0.062 \\
+0.5	0.068 \\
+0.566666666666667	0.06 \\
+0.633333333333333	0.052 \\
+0.7	0.05 \\
+};
+\addplot [semithick, green!50.0!black, opacity=1, dashed, mark=triangle*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.1	0.972 \\
+0.166666666666667	0.986 \\
+0.233333333333333	0.98 \\
+0.3	0.97 \\
+0.366666666666667	0.966 \\
+0.433333333333333	0.992 \\
+0.5	0.98 \\
+0.566666666666667	0.964 \\
+0.633333333333333	0.96 \\
+0.7	0.982 \\
+};
+\addplot [semithick, blue, opacity=1, dashed, mark=*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.1	1 \\
+0.166666666666667	1 \\
+0.233333333333333	1 \\
+0.3	1 \\
+0.366666666666667	1 \\
+0.433333333333333	1 \\
+0.5	1 \\
+0.566666666666667	1 \\
+0.633333333333333	1 \\
+0.7	1 \\
+};
+\addplot [semithick, red, opacity=1, dashed, mark=x, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.1	1 \\
+0.166666666666667	1 \\
+0.233333333333333	1 \\
+0.3	1 \\
+0.366666666666667	1 \\
+0.433333333333333	1 \\
+0.5	1 \\
+0.566666666666667	1 \\
+0.633333333333333	1 \\
+0.7	1 \\
+};
+\addplot [semithick, black, opacity=1, dotted, forget plot]
+table [row sep=\\]{%
+0.1	0.05 \\
+0.166666666666667	0.05 \\
+0.233333333333333	0.05 \\
+0.3	0.05 \\
+0.366666666666667	0.05 \\
+0.433333333333333	0.05 \\
+0.5	0.05 \\
+0.566666666666667	0.05 \\
+0.633333333333333	0.05 \\
+0.7	0.05 \\
+};
+\addplot [semithick, black, opacity=1, dotted, forget plot]
+table [row sep=\\]{%
+0.1	0.95 \\
+0.166666666666667	0.95 \\
+0.233333333333333	0.95 \\
+0.3	0.95 \\
+0.366666666666667	0.95 \\
+0.433333333333333	0.95 \\
+0.5	0.95 \\
+0.566666666666667	0.95 \\
+0.633333333333333	0.95 \\
+0.7	0.95 \\
+};
+\addplot [semithick, black, forget plot]
+table [row sep=\\]{%
+-0.015	0.985 \\
+0.015	1.015 \\
+};
+\addplot [semithick, black, forget plot]
+table [row sep=\\]{%
+0.985	0.985 \\
+1.015	1.015 \\
+};
+\end{groupplot}
+
+\end{tikzpicture}

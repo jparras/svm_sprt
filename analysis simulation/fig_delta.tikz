@@ -1,0 +1,266 @@
+% This file was created by matplotlib2tikz v0.6.18.
+\begin{tikzpicture}
+
+\begin{groupplot}[group style={group size=1 by 2}]
+\nextgroupplot[
+height=\figureheight,
+tick align=outside,
+width=\figurewidth,
+x grid style={white!69.01960784313725!black},
+xmin=0.0055, xmax=0.1045,
+xtick pos=right,
+y grid style={white!69.01960784313725!black},
+ymin=0.85, ymax=1.01,
+ytick pos=left
+]
+\addplot [semithick, green!50.0!black, opacity=1, mark=*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.01	0.948 \\
+0.02	0.956 \\
+0.03	0.936 \\
+0.04	0.94 \\
+0.05	0.932 \\
+0.06	0.942 \\
+0.07	0.91 \\
+0.08	0.898 \\
+0.09	0.908 \\
+0.1	0.87 \\
+};
+\addplot [semithick, green!50.0!black, opacity=1, dashed, mark=*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.01	0.048 \\
+0.02	0.034 \\
+0.03	0.032 \\
+0.04	0.028 \\
+0.05	0.02 \\
+0.06	0.032 \\
+0.07	0.024 \\
+0.08	0.03 \\
+0.09	0.01 \\
+0.1	0.026 \\
+};
+\addplot [semithick, red, opacity=1, mark=square*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.01	0.052 \\
+0.02	0.044 \\
+0.03	0.064 \\
+0.04	0.06 \\
+0.05	0.068 \\
+0.06	0.056 \\
+0.07	0.088 \\
+0.08	0.102 \\
+0.09	0.09 \\
+0.1	0.128 \\
+};
+\addplot [semithick, red, opacity=1, dashed, mark=square*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.01	0.952 \\
+0.02	0.964 \\
+0.03	0.968 \\
+0.04	0.972 \\
+0.05	0.98 \\
+0.06	0.968 \\
+0.07	0.976 \\
+0.08	0.97 \\
+0.09	0.99 \\
+0.1	0.974 \\
+};
+\addplot [semithick, black, opacity=1, mark=triangle*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.01	0 \\
+0.02	0 \\
+0.03	0 \\
+0.04	0 \\
+0.05	0 \\
+0.06	0.002 \\
+0.07	0.002 \\
+0.08	0 \\
+0.09	0.002 \\
+0.1	0.002 \\
+};
+\addplot [semithick, black, opacity=1, dashed, mark=triangle*, mark size=5, mark options={solid}, forget plot]
+table [row sep=\\]{%
+0.01	0 \\
+0.02	0.002 \\
+0.03	0 \\
+0.04	0 \\
+0.05	0 \\
+0.06	0 \\
+0.07	0 \\
+0.08	0 \\
+0.09	0 \\
+0.1	0 \\
+};
+\addplot [semithick, black, opacity=1, dotted, forget plot]
+table [row sep=\\]{%
+0.01	0.05 \\
+0.02	0.05 \\
+0.03	0.05 \\
+0.04	0.05 \\
+0.05	0.05 \\
+0.06	0.05 \\
+0.07	0.05 \\
+0.08	0.05 \\
+0.09	0.05 \\
+0.1	0.05 \\
+};
+\addplot [semithick, black, opacity=1, dotted, forget plot]
+table [row sep=\\]{%
+0.01	0.95 \\
+0.02	0.95 \\
+0.03	0.95 \\
+0.04	0.95 \\
+0.05	0.95 \\
+0.06	0.95 \\
+0.07	0.95 \\
+0.08	0.95 \\
+0.09	0.95 \\
+0.1	0.95 \\
+};
+\addplot [semithick, black, forget plot]
+table [row sep=\\]{%
+-0.015	-0.015 \\
+0.015	0.015 \\
+};
+\addplot [semithick, black, forget plot]
+table [row sep=\\]{%
+0.985	-0.015 \\
+1.015	0.015 \\
+};
+\nextgroupplot[
+height=\figureheight,
+legend cell align={left},
+legend entries={{no_attack H0},{dummy_attack H0},{no_attack H1},{dummy_attack H1},{no_attack ND},{dummy_attack ND}},
+legend style={draw=white!80.0!black},
+tick align=outside,
+tick pos=left,
+width=\figurewidth,
+x grid style={white!69.01960784313725!black},
+xlabel={Delta},
+xmin=0.0055, xmax=0.1045,
+y grid style={white!69.01960784313725!black},
+ymin=-0.01, ymax=0.15
+]
+\addlegendimage{no markers, green!50.0!black}
+\addlegendimage{no markers, green!50.0!black}
+\addlegendimage{no markers, red}
+\addlegendimage{no markers, red}
+\addlegendimage{no markers, black}
+\addlegendimage{no markers, black}
+\addplot [semithick, green!50.0!black, opacity=1, mark=*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.01	0.948 \\
+0.02	0.956 \\
+0.03	0.936 \\
+0.04	0.94 \\
+0.05	0.932 \\
+0.06	0.942 \\
+0.07	0.91 \\
+0.08	0.898 \\
+0.09	0.908 \\
+0.1	0.87 \\
+};
+\addplot [semithick, green!50.0!black, opacity=1, dashed, mark=*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.01	0.048 \\
+0.02	0.034 \\
+0.03	0.032 \\
+0.04	0.028 \\
+0.05	0.02 \\
+0.06	0.032 \\
+0.07	0.024 \\
+0.08	0.03 \\
+0.09	0.01 \\
+0.1	0.026 \\
+};
+\addplot [semithick, red, opacity=1, mark=square*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.01	0.052 \\
+0.02	0.044 \\
+0.03	0.064 \\
+0.04	0.06 \\
+0.05	0.068 \\
+0.06	0.056 \\
+0.07	0.088 \\
+0.08	0.102 \\
+0.09	0.09 \\
+0.1	0.128 \\
+};
+\addplot [semithick, red, opacity=1, dashed, mark=square*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.01	0.952 \\
+0.02	0.964 \\
+0.03	0.968 \\
+0.04	0.972 \\
+0.05	0.98 \\
+0.06	0.968 \\
+0.07	0.976 \\
+0.08	0.97 \\
+0.09	0.99 \\
+0.1	0.974 \\
+};
+\addplot [semithick, black, opacity=1, mark=triangle*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.01	0 \\
+0.02	0 \\
+0.03	0 \\
+0.04	0 \\
+0.05	0 \\
+0.06	0.002 \\
+0.07	0.002 \\
+0.08	0 \\
+0.09	0.002 \\
+0.1	0.002 \\
+};
+\addplot [semithick, black, opacity=1, dashed, mark=triangle*, mark size=5, mark options={solid}]
+table [row sep=\\]{%
+0.01	0 \\
+0.02	0.002 \\
+0.03	0 \\
+0.04	0 \\
+0.05	0 \\
+0.06	0 \\
+0.07	0 \\
+0.08	0 \\
+0.09	0 \\
+0.1	0 \\
+};
+\addplot [semithick, black, opacity=1, dotted, forget plot]
+table [row sep=\\]{%
+0.01	0.05 \\
+0.02	0.05 \\
+0.03	0.05 \\
+0.04	0.05 \\
+0.05	0.05 \\
+0.06	0.05 \\
+0.07	0.05 \\
+0.08	0.05 \\
+0.09	0.05 \\
+0.1	0.05 \\
+};
+\addplot [semithick, black, opacity=1, dotted, forget plot]
+table [row sep=\\]{%
+0.01	0.95 \\
+0.02	0.95 \\
+0.03	0.95 \\
+0.04	0.95 \\
+0.05	0.95 \\
+0.06	0.95 \\
+0.07	0.95 \\
+0.08	0.95 \\
+0.09	0.95 \\
+0.1	0.95 \\
+};
+\addplot [semithick, black, forget plot]
+table [row sep=\\]{%
+-0.015	0.985 \\
+0.015	1.015 \\
+};
+\addplot [semithick, black, forget plot]
+table [row sep=\\]{%
+0.985	0.985 \\
+1.015	1.015 \\
+};
+\end{groupplot}
+
+\end{tikzpicture}

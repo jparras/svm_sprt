@@ -1,0 +1,82 @@
+% This file was created by matplotlib2tikz v0.6.18.
+\begin{tikzpicture}
+
+\begin{axis}[
+height=\figureheight,
+legend cell align={left},
+legend entries={{none maj},{none ewsprt},{sprt maj},{sprt ewsprt},{svm_sprt maj},{svm_sprt ewsprt}},
+legend style={at={(0.03,0.97)}, anchor=north west, draw=white!80.0!black},
+tick align=outside,
+tick pos=left,
+title={Attack mode: always_false; pe = 0.1},
+width=\figurewidth,
+x grid style={white!69.01960784313725!black},
+xlabel={Number of attackers},
+xmin=-0.25, xmax=5.25,
+y grid style={white!69.01960784313725!black},
+ylabel={Decision error},
+ymin=-0.02636, ymax=0.55356
+]
+\addlegendimage{no markers, red}
+\addlegendimage{no markers, green!50.0!black}
+\addlegendimage{no markers, red}
+\addlegendimage{no markers, green!50.0!black}
+\addlegendimage{no markers, red}
+\addlegendimage{no markers, green!50.0!black}
+\addplot [semithick, red, mark=*, mark size=3, mark options={solid,fill opacity=0}]
+table [row sep=\\]{%
+0	0 \\
+1	0.0016 \\
+2	0.0208 \\
+3	0.0864 \\
+4	0.2596 \\
+5	0.4952 \\
+};
+\addplot [semithick, green!50.0!black, mark=*, mark size=3, mark options={solid,fill opacity=0}]
+table [row sep=\\]{%
+0	0.0132 \\
+1	0.0852 \\
+2	0.3904 \\
+3	0.466 \\
+4	0.5092 \\
+5	0.512 \\
+};
+\addplot [semithick, red, mark=triangle, mark size=3, mark options={solid,rotate=180,fill opacity=0}]
+table [row sep=\\]{%
+0	0 \\
+1	0.0016 \\
+2	0.028 \\
+3	0.1008 \\
+4	0.2872 \\
+5	0.5272 \\
+};
+\addplot [semithick, green!50.0!black, mark=triangle, mark size=3, mark options={solid,rotate=180,fill opacity=0}]
+table [row sep=\\]{%
+0	0.0108 \\
+1	0.0996 \\
+2	0.3868 \\
+3	0.4712 \\
+4	0.5016 \\
+5	0.5204 \\
+};
+\addplot [semithick, red, mark=square, mark size=3, mark options={solid,fill opacity=0}]
+table [row sep=\\]{%
+0	0 \\
+1	0.0056 \\
+2	0.0296 \\
+3	0.11 \\
+4	0.2748 \\
+5	0.5084 \\
+};
+\addplot [semithick, green!50.0!black, mark=square, mark size=3, mark options={solid,fill opacity=0}]
+table [row sep=\\]{%
+0	0.0136 \\
+1	0.0928 \\
+2	0.372 \\
+3	0.4908 \\
+4	0.52 \\
+5	0.5132 \\
+};
+\end{axis}
+
+\end{tikzpicture}

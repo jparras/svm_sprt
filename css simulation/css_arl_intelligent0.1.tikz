@@ -1,0 +1,82 @@
+% This file was created by matplotlib2tikz v0.6.18.
+\begin{tikzpicture}
+
+\begin{axis}[
+height=\figureheight,
+legend cell align={left},
+legend entries={{none maj},{none ewsprt},{sprt maj},{sprt ewsprt},{svm_sprt maj},{svm_sprt ewsprt}},
+legend style={at={(0.91,0.5)}, anchor=east, draw=white!80.0!black},
+tick align=outside,
+tick pos=left,
+title={Attack mode: intelligent; pe = 0.1},
+width=\figurewidth,
+x grid style={white!69.01960784313725!black},
+xlabel={Number of attackers},
+xmin=-0.25, xmax=5.25,
+y grid style={white!69.01960784313725!black},
+ylabel={Average test lenght},
+ymin=1.77786, ymax=16.09854
+]
+\addlegendimage{no markers, red}
+\addlegendimage{no markers, green!50.0!black}
+\addlegendimage{no markers, red}
+\addlegendimage{no markers, green!50.0!black}
+\addlegendimage{no markers, red}
+\addlegendimage{no markers, green!50.0!black}
+\addplot [semithick, red, mark=*, mark size=3, mark options={solid,fill opacity=0}]
+table [row sep=\\]{%
+0	12.2124 \\
+1	12.762 \\
+2	13.4684 \\
+3	14.064 \\
+4	14.8284 \\
+5	15.4476 \\
+};
+\addplot [semithick, green!50.0!black, mark=*, mark size=3, mark options={solid,fill opacity=0}]
+table [row sep=\\]{%
+0	2.4712 \\
+1	3.0688 \\
+2	3.0328 \\
+3	3.0392 \\
+4	3.072 \\
+5	3.0992 \\
+};
+\addplot [semithick, red, mark=triangle, mark size=3, mark options={solid,rotate=180,fill opacity=0}]
+table [row sep=\\]{%
+0	12.2928 \\
+1	12.7784 \\
+2	13.464 \\
+3	14.172 \\
+4	14.8152 \\
+5	15.3984 \\
+};
+\addplot [semithick, green!50.0!black, mark=triangle, mark size=3, mark options={solid,rotate=180,fill opacity=0}]
+table [row sep=\\]{%
+0	2.4352 \\
+1	3.0624 \\
+2	2.9904 \\
+3	3.0096 \\
+4	3.0144 \\
+5	3.0136 \\
+};
+\addplot [semithick, red, mark=square, mark size=3, mark options={solid,fill opacity=0}]
+table [row sep=\\]{%
+0	12.2048 \\
+1	12.5052125100241 \\
+2	12.6516 \\
+3	12.942 \\
+4	13.1239470517449 \\
+5	13.2832861189802 \\
+};
+\addplot [semithick, green!50.0!black, mark=square, mark size=3, mark options={solid,fill opacity=0}]
+table [row sep=\\]{%
+0	2.4288 \\
+1	2.7872 \\
+2	2.926 \\
+3	3.0736 \\
+4	3.0824 \\
+5	3.0864 \\
+};
+\end{axis}
+
+\end{tikzpicture}
